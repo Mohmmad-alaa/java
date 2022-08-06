@@ -1,11 +1,12 @@
 package sta;
 
 public class Cf {
-	
+
 	private String name;
 	private int id;
-	
-	
+
+	public Cf() {
+	}
 
 	public String getName() {
 		return name;
@@ -22,7 +23,5 @@ public class Cf {
 	public void setId(int id) {
 		this.id = id;
 	}
-	
-	
 
 }
